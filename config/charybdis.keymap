@@ -24,7 +24,7 @@
                                            &to 1      &mkp MB2    &kp RALT
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tsl>;
         };
 
         layer_1 {
@@ -37,7 +37,7 @@
                                         &to 0          &mkp MB2          &none
             >;
 
-            trackball-bindings = <&tsl>;
+            trackball-bindings = <&tmv_coarse>;
         };
     };
 };
