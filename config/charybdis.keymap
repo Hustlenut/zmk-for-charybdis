@@ -42,9 +42,9 @@
 
         layer_2 {
             bindings = <
-&kp CAPS        &none         &none         &none         &none         &bt BT_NXT    &none       &none     &none     &kp HOME   &kp END    &none
-&none           &none         &none         &none         &none         &bt BT_CLR    &none       &none     &kp UP    &kp PG_UP  &kp PG_DN  &none
-&kp LEFT_SHIFT  &kp LALT      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none         &none       &kp LEFT  &kp DOWN  &kp RIGHT  &none      &kp RIGHT_SHIFT
+&kp CAPS        &none         &none         &none         &none         &bt BT_NXT    &none       &none     &kp UP    &kp HOME   &kp END    &none
+&none           &none         &none         &none         &none         &bt BT_CLR    &none       &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &kp PG_DN
+&kp LEFT_SHIFT  &kp LALT      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none         &none       &none     &none     &none      &none      &kp RIGHT_SHIFT
 &kp LCTRL       &kp LEFT_WIN  &none         &kp LALT      &none         &none         &none       &none     &none     &kp RALT   &none      &kp RCTRL
                                             &none         &kp SPACE     &mkp MB3      &kp ENTER   &none
                                                           &mkp MB1      &mkp MB2      &kp DELETE
